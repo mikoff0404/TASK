@@ -21,8 +21,9 @@ for i in range(count):
     var = int(input(f'Положение монеты {i}: 0 или 1 ? '))
     if var == 1:
         count_1 += 1
-    else: count_0 += 1
+    else:
+        count_0 += 1
 if count_1 < count_0:
     print(f'Кол-во монет, чтобы перевернуть: {count_1}')
-else: print(f'Кол-во монет, чтобы перевернуть: {count_0}')
-
+else:
+    print(f'Кол-во монет, чтобы перевернуть: {count_0}')
